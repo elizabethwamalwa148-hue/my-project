@@ -46,7 +46,7 @@ function Sidebar() {
       <div className="mt-auto border-t border-slate-700 pt-4">
         {user.name && (
           <div className="px-4 pb-3">
-            <p className="text-sm font-medium text-white truncate">{user.name}</p>
+            <h className="text-sm font-medium text-white truncate">{user.name}</h>
             <p className="text-xs text-slate-400 truncate">{user.email}</p>
           </div>
         )}
